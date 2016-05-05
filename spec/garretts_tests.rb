@@ -41,6 +41,6 @@ describe Robot do
     expect{@robot.attack!(@box)}.to raise_error
   end #it
 
-  end #describe #attack!
+end #describe #attack!
 
 end # describe Robot

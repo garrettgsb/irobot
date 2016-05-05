@@ -7,7 +7,7 @@ class BoxOfBolts < Item
   end #initialize
 
   def feed(target)
-    target.heal(20)
+      target.heal(20)
   end #feed
 
 
