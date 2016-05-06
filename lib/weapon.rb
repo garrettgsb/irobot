@@ -2,11 +2,12 @@
 
 class Weapon < Item
 
-  attr_reader :damage
+  attr_reader :damage, :range
 
-  def initialize(name, weight, dmg)
+  def initialize(name, weight, dmg, range=1)
     super(name, weight)
     @damage = dmg
+    @range = range
   end #initialize
 
   def hit(target)
